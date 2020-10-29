@@ -1058,7 +1058,7 @@ rmdir --ignore-fail-on-non-empty "$testdir"
 %{?with_docs:%{_pkgdocdir}/git-svn.html}
 
 %changelog
-* thu Oct 29 2020 Nico Kadel-Garcia <nkadel@gmail.com> - 2.29.1-1
+* Thu Oct 29 2020 Nico Kadel-Garcia <nkadel@gmail.com> - 2.29.1-1
 - Update to 2.30.0
 
 * Wed Oct 21 2020 Nico Kadel-Garcia <nkadel@gmail.com> - 2.29.0-0
