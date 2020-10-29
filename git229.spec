@@ -89,7 +89,7 @@
 %endif
 
 Name:           git229
-Version:        2.29.0
+Version:        2.29.1
 Release:        1%{?dist}
 Summary:        Fast Version Control System
 License:        GPLv2
@@ -1058,6 +1058,9 @@ rmdir --ignore-fail-on-non-empty "$testdir"
 %{?with_docs:%{_pkgdocdir}/git-svn.html}
 
 %changelog
+* thu Oct 29 2020 Nico Kadel-Garcia <nkadel@gmail.com> - 2.29.1-1
+- Update to 2.30.0
+
 * Wed Oct 21 2020 Nico Kadel-Garcia <nkadel@gmail.com> - 2.29.0-0
 - Update to 2.29.0
 - Discard contrib/svn-fe/svnrdump_sim.py, no longer used
