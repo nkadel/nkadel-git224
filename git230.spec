@@ -88,8 +88,8 @@
 %global build_ldflags       -Wl,-z,relro -Wl,-z,now
 %endif
 
-Name:           git229
-Version:        2.29.2
+Name:           git230
+Version:        2.30.1
 Release:        1%{?dist}
 Summary:        Fast Version Control System
 License:        GPLv2
@@ -1058,6 +1058,9 @@ rmdir --ignore-fail-on-non-empty "$testdir"
 %{?with_docs:%{_pkgdocdir}/git-svn.html}
 
 %changelog
+* Tue Feb 16 2021 Nico Kadel-Garcia <nkadel@gmail.com> - 2.30.1-1
+- Update to 2.30.1
+
 * Sat Oct 31 2020 Nico Kadel-Garcia <nkadel@gmail.com> - 2.29.2-1
 - Update to 2.29.2
 
