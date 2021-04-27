@@ -88,9 +88,9 @@
 %global build_ldflags       -Wl,-z,relro -Wl,-z,now
 %endif
 
-Name:           git230
-Version:        2.30.1
-Release:        1%{?dist}
+Name:           git231
+Version:        2.31.1
+Release:        0%{?dist}
 Summary:        Fast Version Control System
 License:        GPLv2
 URL:            https://git-scm.com/
@@ -1058,7 +1058,10 @@ rmdir --ignore-fail-on-non-empty "$testdir"
 %{?with_docs:%{_pkgdocdir}/git-svn.html}
 
 %changelog
-* Tue Feb 16 2021 Nico Kadel-Garcia <nkadel@gmail.com> - 2.30.1-1
+* Mon Apr 26 2021 Nico Kadel-Garcia <nkadel@gmail.com> - 2.31.1-0
+- Update to 2.31.1
+
+* Tue Feb 16 2021 Nico Kadel-Garcia <nkadel@gmail.com> - 2.30.1-0
 - Update to 2.30.1
 
 * Sat Oct 31 2020 Nico Kadel-Garcia <nkadel@gmail.com> - 2.29.2-1
