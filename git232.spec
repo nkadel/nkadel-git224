@@ -88,8 +88,8 @@
 %global build_ldflags       -Wl,-z,relro -Wl,-z,now
 %endif
 
-Name:           git231
-Version:        2.31.1
+Name:           git232
+Version:        2.32.0
 Release:        0%{?dist}
 Summary:        Fast Version Control System
 License:        GPLv2
@@ -1058,6 +1058,9 @@ rmdir --ignore-fail-on-non-empty "$testdir"
 %{?with_docs:%{_pkgdocdir}/git-svn.html}
 
 %changelog
+* Mon Jun 21 2021 Nico Kadel-Garcia <nkadel@gmail.com> - 2.32.0-0
+- Update to 2.32.0
+
 * Mon Apr 26 2021 Nico Kadel-Garcia <nkadel@gmail.com> - 2.31.1-0
 - Update to 2.31.1
 
